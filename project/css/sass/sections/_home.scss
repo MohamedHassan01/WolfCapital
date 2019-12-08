@@ -1,0 +1,21 @@
+.home {
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('../img/home-cover.png') no-repeat center center;
+    background-size: cover;
+    h1 {
+        font-weight: bold;
+        margin-bottom: 0;
+        span {
+            font-weight: 300;
+        }
+    }
+    p {
+        color: rgba(#000, .6);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}

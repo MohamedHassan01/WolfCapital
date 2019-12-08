@@ -1,0 +1,27 @@
+.btn-fill,
+.btn-empty {
+    background-color: $blue;
+    border: 1px solid $blue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    &:hover {
+        background-color: #fff;
+        color: $blue;
+    }
+}
+.btn-empty {
+    background-color: #fff;
+    color: $blue;
+    border: 1px solid $blue;
+    margin-left: 10px;
+    &:hover {
+        background-color: $blue;
+        color: #fff;
+    }
+}
+
+.black {
+    background-color: #222;
+}

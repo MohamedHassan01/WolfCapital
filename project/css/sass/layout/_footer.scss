@@ -1,0 +1,29 @@
+footer {
+  padding: 70px 0;
+  background: url('../img/footer.png') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  .content {
+    margin-top: 170px;
+    .update-news {
+      form {
+        display: flex;
+        input {
+          padding: 5px;
+          width: 82%;
+        }
+        button {
+          border-radius: 0;
+        }
+      }
+      .social {
+        ul {
+          display: flex;
+          li {
+            margin: 0 15px;
+          }
+        }
+      }
+    }
+  }
+}

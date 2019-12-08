@@ -1,0 +1,110 @@
+.about {
+    padding: 70px 0;
+    .cards {
+        .card {
+            padding: 60px 40px;
+            transition: all .5s ease-in-out;
+            border: none;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.11);
+            margin-right: 20px;
+            margin-left: 20px;
+            svg {
+                margin-bottom: 15px;
+            }
+            h3 {
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+            p {
+                margin-bottom: 30px;
+                opacity: .8;
+                line-height: 1.8;
+            }
+            &:hover {
+                color: #fff;
+                background-color: $blue;
+                svg {
+                    color: #fff !important;
+                }
+                h3 {
+                    color: #fff !important;
+                }
+                p {
+                    opacity: .9;
+                }
+            }
+        }
+    }
+    .one {
+        margin-top: 50px;
+        .card:nth-child(1) {
+            margin-bottom: 30px;
+            svg {
+                color: #e84118;
+            }
+            h3 {
+                color: #e84118;
+            }
+        }
+        .card:nth-child(2) {
+            svg {
+                color: $blue;
+            }
+            h3 {
+                color: $blue;
+            }
+        }
+    }
+    .two {
+        margin-top: 120px;
+        .card:nth-child(1) {
+            margin-bottom: 30px;
+            svg {
+                color: #9c88ff;
+            }
+            h3 {
+                color: #9c88ff;
+            }
+        }
+        .card:nth-child(2) {
+            svg {
+                color: #4cd137;
+            }
+            h3 {
+                color: #4cd137;
+            }
+        }
+    }
+    .three {
+        .card:nth-child(1) {
+            margin-bottom: -30px;
+            border: none;
+            box-shadow: none;
+            &:hover {
+                color: #000;
+                background-color: #fff;
+                svg {
+                    color: #fff !important;
+                }
+            }
+            svg {
+                color: #e84118;
+            }
+            span {
+                color: $blue;
+                font-weight: 600;
+            }
+            h2 {
+                margin-bottom: 30px;
+            }
+        }
+        .card:nth-child(2) {
+            svg {
+                color: #fbc531;
+            }
+            h3 {
+                color: #fbc531;
+            }
+        }
+    }
+}

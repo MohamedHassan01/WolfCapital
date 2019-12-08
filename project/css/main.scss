@@ -1,0 +1,17 @@
+// Import variables
+@import './sass/variables/colors';
+
+// Import layouts
+@import './sass/layout/global';
+@import './sass/layout/navbar';
+@import './sass/layout/contact';
+@import './sass/layout/footer';
+
+// Import sections
+@import './sass/sections/home';
+@import './sass/sections/about';
+@import './sass/sections/works';
+@import './sass/sections/partner';
+
+// Import Components
+@import './sass/componenets/buttons';

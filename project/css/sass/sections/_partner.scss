@@ -1,0 +1,43 @@
+.partner {
+  padding: 70px 0;
+  background-color: rgb(231, 231, 231);
+  position: relative;
+  .cover {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .layer {
+      background-color: rgba(0, 0, 0, 0.651);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .partner-box {
+    margin: 0 auto;
+    width: 50%;
+    z-index: 9999;
+    position: relative;
+    background-color: $blue;
+    color: #fff;
+    padding: 40px 60px;
+    border-radius: 0 0 25px;
+    span {
+      color: #222;
+      font-weight: bold;
+    }
+    h2 {
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    p {
+      opacity: .8;
+    }
+  }
+}
